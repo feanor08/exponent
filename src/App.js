@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Landing from "./components/Landing";
+import Landing from "./components/Landing/Landing";
 import Vision from "./components/Vision";
 import Team from "./components/Team";
 import TeamDetail from "./components/TeamDetail";

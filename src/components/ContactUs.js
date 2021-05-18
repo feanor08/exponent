@@ -13,6 +13,7 @@ const ContactUs = () => {
 }
 
 const Page = styled.div`
+    padding-top:100px;
     width:100%;
     height:100vh;
     flex-wrap: wrap;
@@ -24,15 +25,16 @@ const Page = styled.div`
 `;
 
 const CuriousText = styled.p`
-    font-size:3vw;
-    border:2px red solid;
+    font-size:3em;
 `;
 const HitUsText = styled.p`
-    border:2px red solid;
-    font-size:12vw;
+    font-size:10em;
+    letter-spacing:5px;
+    @media (max-width: 768px) {
+        font-size:9em; 
+    }
 `;
 const LinksText = styled.h2`
-    border:2px red solid;
     display:flex;
     flex-direction: column;
 `;

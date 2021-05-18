@@ -7,7 +7,7 @@ const Vision = () => {
     return (
         <Page>
             <Text>{firstText}</Text>
-            <div>
+            <div style={{width:"100%"}}>
                 <Lottie 
                     options={defaultOptions}
                     height='100%'
@@ -28,28 +28,31 @@ const defaultOptions = {
   };
 
 const Page = styled.div`
+    padding:1em;
     width:100%;
-    height:100vh;
+    height:130vh;
     text-align: center;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
     align-content:center;
     background-color:white;
-    color: white;
+    color: #131415;
+    @media (max-width: 768px) {
+        height:100vh;
+    }
 `;
 
 const Text = styled.h2`
-    color:black;
-    font-size:2em;
-    flex-basis:20%;
+    padding:2em;
+    font-size:4em;
+    @media (max-width: 768px) {
+    padding:0.5em;
+    font-size: 12vw;
+    margin-bottom:100px;
+  }
 `;
 
-const LottieContainer = styled.div`
-    width:100%;
-    height:100%;
-    flex-basis:40%;
-`;
 
 export default Vision
