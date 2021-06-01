@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  margin: auto auto auto 0px;
+  padding: 0 30px;
+  text-align: center;
+  color: white;
+}
+.container h4 {
+  margin-top: 250px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 31px;
+  margin-bottom: 100px;
+}
+.container h1 {
+  font-size: 208px;
+  font-weight: lighter;
+  line-height: 31px;
+  margin-bottom: 350px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icons svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.icons svg:hover {
+  cursor: pointer;
+}
+@media (max-width: 978px) {
+  .container h4 {
+    font-size: 17px;
+  }
+  .container h1 {
+    font-size: 100px;
+  }
+}
+@media (max-width: 450px) {
+  .container h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  .container h1 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,22 @@
+.aboutContainer {
+    margin: 30px auto;
+  max-width: 1500px;
+  padding: 0 30px;
+}
+
+@media (max-width: 996px) {
+  .aboutContainer {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 450px) {
+  .aboutContainer {
+    margin-top: 30px;
+  }
+}
