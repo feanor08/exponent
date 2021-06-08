@@ -1,5 +1,6 @@
 import styles from "@/styles/VisionArea.module.css";
 import Lottie from "react-lottie";
+import VisionLottie from './VisionLottie'
 import animationData from "@/components/lottie/animationData.json";
 function VisionArea() {
   const defaultOptions = {
@@ -16,8 +17,8 @@ function VisionArea() {
         Imagine all the awesomeness of going
         <br /> electric without the shackles of charging.
       </h1>
-
-        <Lottie options={defaultOptions} height="50%" width="100%" />
+        <VisionLottie/>
+        {/* <Lottie options={defaultOptions} height="50%" width="100%" /> */}
 
     </div>
   );
