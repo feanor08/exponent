@@ -51,9 +51,9 @@
 .gridItem2 h2 {
   text-align: left;
   font-weight: 300;
-  -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+  /* -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
   -moz-animation: neon6 1.5s ease-in-out infinite alternate;
-  animation: neon6 1.5s ease-in-out infinite alternate;
+  animation: neon6 1.5s ease-in-out infinite alternate; */
 }
 
 @media (max-width: 996px) {
