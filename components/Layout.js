@@ -16,7 +16,7 @@ const Layout = ({ title, description, keywords, children }) => {
         <Header />
       </div>
       {children}
-      <Footer />
+      {router.pathname!=="/"&&<Footer/>}
     </div>
   );
 };

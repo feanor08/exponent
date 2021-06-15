@@ -12,7 +12,6 @@ export default function Home({ events }) {
     <Layout>
       <LandingArea />
       <VisionArea />
-      <InfoArea/>
       <BestTeamArea/>
       <ContactArea/>
     </Layout>

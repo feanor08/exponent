@@ -8,7 +8,7 @@ function index() {
         <img src="/Group 3.svg" />
       </div>
       <div className={styles.image}>
-        <img src="/Bitmap.svg" width="400px" height="340px" />
+        <img src="/Bitmap (2).svg" width="400px" height="340px" />
       </div>
     </div>
   );
