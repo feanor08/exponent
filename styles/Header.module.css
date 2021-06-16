@@ -9,10 +9,10 @@
 .logo{
   transition: transform .2s;
 }
-.logo:hover{
+/* .logo:hover{
   transform: scale(1.2);
   cursor: pointer;
-}
+} */
 .header a {
   color: white;
   margin-right: 20px;
